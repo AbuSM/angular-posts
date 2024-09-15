@@ -5,18 +5,8 @@ import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { ApiService } from './api.service';
-import {
-  Subscription,
-  debounceTime,
-  distinctUntilChanged,
-  switchMap,
-} from 'rxjs';
-import {
-  FormGroup,
-  ReactiveFormsModule,
-  Validators,
-  FormBuilder,
-} from '@angular/forms';
+import { Subscription, debounceTime, switchMap } from 'rxjs';
+import { FormGroup, ReactiveFormsModule, FormBuilder } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
